@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #CCCCCC;
+    padding:  20px 0;
+}
+
+.menuTop {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE ;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+  
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("../asset/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+  
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.banner {
+    width: 100%;
+    opacity: 80%;
+}
+
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    width: 940px;
+  
+    margin: 30px;
+   
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient( white, #888888);
+}
+
+.mapaConteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficio {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.beneficioConteudo {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listBeneficio {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "⭐";
+}
+
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imageBeneficio{
+    width: 60%;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .menuTop, .principal,.principal p, .beneficioConteudo, .video, .mapaConteudo {
+       width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .listBeneficio, .imageBeneficio {
+        width: 100%;
+    }
+}
